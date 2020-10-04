@@ -11,7 +11,7 @@ int main() {
     for (int i=0; i < num; i++) {
         cout <<"請輸入金額 :";
         cin >>j;
-        total=total+j;    
+        total += j;    
     }
     cout <<total;
 }
